@@ -134,7 +134,7 @@ const SetupGuide: React.FC = () => {
             },
             {
               type: 'info',
-              image: '../serverkouchiku/public/assets/01.png',
+              image: 'https://yuga-school.github.io/serverkouchiku/public/assets/01.png',
               content: 'ブートの種類を、ubuntu-ja-22.04-desktop-amd64.isoにして選択し、スタートを実行する。',
             },
             {
@@ -154,7 +154,7 @@ const SetupGuide: React.FC = () => {
           contexts: [
             {
               type: 'info',
-              image: '../serverkouchiku/public/assets/02.JPG',
+              image: 'https://yuga-school.github.io/serverkouchiku/public/assets/02.JPG',
               content: '配布されたノートでBIOSを開き、Boot priorityでusbを一番上において、セーブする。',
             },
             {
@@ -167,32 +167,32 @@ const SetupGuide: React.FC = () => {
             },
             {
               type: 'info',
-              image: '../serverkouchiku/public/assets/03.JPG',
+              image: 'https://yuga-school.github.io/serverkouchiku/public/assets/03.JPG',
               content: '「ubuntuをインストール」を選択する。',
             },
             {
               type: 'info',
-              image: '../serverkouchiku/public/assets/04.JPG',
+              image: 'https://yuga-school.github.io/serverkouchiku/public/assets/04.JPG',
               content: 'キーボードレイアウトはJapaneseに設定する。',
             },
             {
               type: 'info',
-              image: '../serverkouchiku/public/assets/05.JPG',
+              image: 'https://yuga-school.github.io/serverkouchiku/public/assets/05.JPG',
               content: 'アップデートと他のソフトウェアは「通常のインストール」、その他のオプションは「グラフィックスとwi-fiハードウェアと追加のメディアフォーマットのサードパーティ製ソフトウェアをインストールする」を選択する。',
             },
             {
               type: 'info',
-              image: '../serverkouchiku/public/assets/06.JPG',
+              image: 'https://yuga-school.github.io/serverkouchiku/public/assets/06.JPG',
               content: 'インストールの種類は「ディスクを削除してUbuntuをインストール」を選択する。',
             },
             {
               type: 'info',
-              image: '../serverkouchiku/public/assets/07.JPG',
+              image: 'https://yuga-school.github.io/serverkouchiku/public/assets/07.JPG',
               content: '自分の住んでいる国を選択する。',
             },
             {
               type: 'info',
-              image: '../serverkouchiku/public/assets/08.JPG',
+              image: 'https://yuga-school.github.io/serverkouchiku/public/assets/08.JPG',
               content: '自分の情報を入力する。',
             },
             {
@@ -240,7 +240,7 @@ const SetupGuide: React.FC = () => {
             },
             {
               type: 'command',
-              image: '../serverkouchiku/public/assets/09.JPG',
+              image: 'https://yuga-school.github.io/serverkouchiku/public/assets/09.JPG',
               content: 'sudo systemctl enable apache2'
             },
             {
