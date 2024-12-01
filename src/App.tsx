@@ -864,7 +864,7 @@ const SetupGuide: React.FC = () => {
               </a>
             </li>
             <li>
-              <a href="https://qiita.com/yutorimatsugami/items/fd015175258487825e98">
+              <a href="https://qiita.com/yutorimatsugami/items/fd015175258487825e98" className="text-blue-600 hover:underline">
                 Ubuntu起動時エラーの対処法
               </a>
             </li>
