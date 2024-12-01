@@ -154,7 +154,7 @@ const SetupGuide: React.FC = () => {
           contexts: [
             {
               type: 'info',
-              image: '../public/02.jpg',
+              image: '../public/02.JPG',
               content: '配布されたノートでBIOSを開き、Boot priorityでusbを一番上において、セーブする。',
             },
             {
@@ -167,32 +167,32 @@ const SetupGuide: React.FC = () => {
             },
             {
               type: 'info',
-              image: '../public/03.jpg',
+              image: '../public/03.JPG',
               content: '「ubuntuをインストール」を選択する。',
             },
             {
               type: 'info',
-              image: '../public/04.jpg',
+              image: '../public/04.JPG',
               content: 'キーボードレイアウトはJapaneseに設定する。',
             },
             {
               type: 'info',
-              image: '../public/05.jpg',
+              image: '../public/05.JPG',
               content: 'アップデートと他のソフトウェアは「通常のインストール」、その他のオプションは「グラフィックスとwi-fiハードウェアと追加のメディアフォーマットのサードパーティ製ソフトウェアをインストールする」を選択する。',
             },
             {
               type: 'info',
-              image: '../public/06.jpg',
+              image: '../public/06.JPG',
               content: 'インストールの種類は「ディスクを削除してUbuntuをインストール」を選択する。',
             },
             {
               type: 'info',
-              image: '../public/07.jpg',
+              image: '../public/07.JPG',
               content: '自分の住んでいる国を選択する。',
             },
             {
               type: 'info',
-              image: '../public/08.jpg',
+              image: '../public/08.JPG',
               content: '自分の情報を入力する。',
             },
             {
@@ -240,7 +240,7 @@ const SetupGuide: React.FC = () => {
             },
             {
               type: 'command',
-              image: '../public/09.jpg',
+              image: '../public/09.JPG',
               content: 'sudo systemctl enable apache2'
             },
             {
