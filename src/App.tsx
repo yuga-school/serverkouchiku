@@ -159,7 +159,8 @@ const SetupGuide: React.FC = () => {
             },
             {
               type: 'info',
-              content: 'AdvancedModeに移動して、SecurityからSecure boot controlを無効にする。',
+              image: 'https://github.com/yuga-school/serverkouchiku/blob/main/public/assets/10.JPG?raw=true',
+              content: 'PCの起動時にこれが表示された場合、AdvancedModeに移動して、SecurityからSecure boot controlを無効にする。',
             },
             {
               type: 'info',
@@ -774,7 +775,6 @@ const SetupGuide: React.FC = () => {
           <div className="p-6">
             <h1 className="text-3xl font-bold mb-3 text-center">Ubuntuサーバー構築ガイド</h1>
             <p className="text-gray-600 text-center text-lg">Version: Ubuntu 22.04 LTS</p>
-            
             <Alert className="mt-6 bg-blue-50 border-l-4 border-blue-500">
               <p className="text-blue-800">
                 このガイドでは、<code className="bg-blue-100 px-2 py-1 rounded text-blue-900">$</code> で始まる行はターミナルでのコマンド入力を示します。
@@ -861,6 +861,11 @@ const SetupGuide: React.FC = () => {
             <li>
               <a href="https://qiita.com/Ryo-0131/items/0046d9816f430d2c2a0a" className="text-blue-600 hover:underline">
                 Apache2サービス失敗時の対処方法
+              </a>
+            </li>
+            <li>
+              <a href="https://qiita.com/yutorimatsugami/items/fd015175258487825e98">
+                Ubuntu起動時エラーの対処法
               </a>
             </li>
           </ul>
