@@ -1,16 +1,16 @@
-# TodoApp
-
-React、TypeScript、Tailwind CSS を使用し、ローカルストレージでデータを永続化した「Todoアプリ」です。
+# サーバー構築ガイド
+ubuntuを使ったサーバー構築の手順について、ubuntuの導入から詳しく記載したアプリです。
 
 ## 開発履歴
 
-- 2024年10月24日：プロジェクト開始
+- 2024年12月：プロジェクト開始
+- 2025年1月：デプロイ
 
 ## ライセンス
 
 MIT License
 
-Copyright (c) 2024 Kosen Taro
+Copyright (c) 2025 Higashi Yuga
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
